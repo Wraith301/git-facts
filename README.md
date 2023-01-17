@@ -3,8 +3,8 @@
 <ul>
 <li>The current active branch in the local repository</li>
 <li>Whether repository files have been modified</li>
-<li>whether the current head commit was authored in the last week</li>
-<li>whether the current head commit was authored by Rufus</li>
+<li>Whether the current head commit was authored in the last week</li>
+<li>Whether the current head commit was authored by Rufus</li>
 </ul>
 
 
@@ -22,6 +22,6 @@
     pip install argparse
 
 <h3>Instructions to run</h3>
-<p>Navigate to the directory with the script. Use the following command in a command line</p>
+<p>In a command line, navigate to the directory containing the script. Use the following command to run the script.</p>
 
     python git-facts.py --path "<local_git_repository_absolute_path>"
